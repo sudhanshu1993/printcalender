@@ -45,6 +45,7 @@
 <?php 
 function display($str, $word, $l)
 {
+
 $s = ltrim($str, $word);
 return rtrim($s, $l);
 }
@@ -55,6 +56,7 @@ $string = $data[0];
 $string = $data[1];
 $string = $data[2];
 $str_arr = explode(",", $string);
+
 echo "<tr >";
 echo "<td> <a href=state.php?id=".$data[3]."&id1=".d($str_arr[2], "gmtOffsetName:'", "'") . ">". $data[0] . "</td>";
 echo "</tr>";

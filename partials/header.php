@@ -1,4 +1,8 @@
-
+<?php
+$title="CalendarEarth";
+$description="online printable calendars for any year, including public holidays and observances for countries worldwide.";
+$keyword="calendarearth ,calendar, online calendar,yearly calendar,download calendar,calendar download,global events,international days,monthly events";
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,6 +11,9 @@
     <title><?php echo $title  ?></title>
     <?php include 'var.php';
     ?>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <meta name="description" content="<?php echo $description  ?>">
     <meta name="keywords" content="<?php echo $keyword  ?>">
     <meta name="robots" content="noindex">
@@ -52,7 +59,7 @@
           </button>
           <div id="dropdown-calendr"  class="dropdown-content">
             <a href="<?php echo $base_site_url; ?>yearly.php">Yearly View</a>
-            <a href="<?php echo $base_site_url; ?>two-months.php"">Two Month View</a>
+            <a href="<?php echo $base_site_url; ?>two-months.php">Two Month View</a>
             <a href="<?php echo $base_site_url; ?>school_calendar.php">School Calendar</a>
           </div>
         </div>

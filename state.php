@@ -37,7 +37,7 @@
 		</tr>\n\n";
 
 		$file = fopen("state.csv", "r");
-
+		
 		while (($data = fgetcsv($file)) !== false) {
              //var_dump($data[2]);
              if($data[2]==$cc){

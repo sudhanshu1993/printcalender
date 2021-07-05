@@ -1,3 +1,1 @@
-<?php $base_site_url="http://localhost/servitude/printcalendar/"; 
- 
-?>
+<?php $base_site_url="http://localhost/printcalendar-master/"; ?>

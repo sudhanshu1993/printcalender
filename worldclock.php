@@ -40,6 +40,11 @@
 			$str_arr = explode(",", $string);
 			//var_dump($data[2]);
 			echo "<tr>";
+			// echo $data[0];
+			// echo $data[1];
+			// echo $data[2];
+			// echo $data[3];
+			
 			  echo "<td> <a href=state.php?id=".$data[3]."&id1=".d($str_arr[2], "gmtOffsetName:'", "'") . ">". $data[0] . "</td>";
              echo "<td>". $data[1] . "</td>";
             
@@ -49,7 +54,7 @@
 			
 		}
 
-	
+		
 		fclose($file);
 
 		echo "\n</table></center></body></html>";
